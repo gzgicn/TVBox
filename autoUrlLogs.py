@@ -20,6 +20,7 @@ def main():
 		return
 
 	nameList = []
+	
 	reList = ["https://ghproxy.net/https://raw.githubusercontent.com", "https://raw.kkgithub.com",
 			  "https://gcore.jsdelivr.net/gh", "https://mirror.ghproxy.com/https://raw.githubusercontent.com",
 			  "https://github.moeyy.xyz/https://raw.githubusercontent.com", "https://fastly.jsdelivr.net/gh"]
@@ -42,6 +43,7 @@ def main():
 					urlPath = item.get("path", "")
 					reqText = urlData
 					
+					
 					if urlName != "gaotianliuyun_0707":
 						reqText = reqText.replace("'./", "'" + urlPath) \
 							.replace('"./', '"' + urlPath)
@@ -56,6 +58,7 @@ def main():
 						.replace("'https://raw.githubusercontent.com", "'" + reList[reI]) \
 						.replace('"https://raw.githubusercontent.com', '"' + reList[reI])
 					
+
 					os.makedirs(f"./tv/{str(reI)}", exist_ok=True)
 					
 					with open(f"./tv/{str(reI)}/{urlName}.json", "w", encoding='utf-8') as fp:
