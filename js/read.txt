@@ -1,0 +1,1 @@
+https://hub.gitmirror.com/https://raw.githubusercontent.com/gzgicn/TVBox/refs/heads/main/js/test.json
