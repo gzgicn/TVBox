@@ -21,9 +21,13 @@ def main():
 
 	nameList = []
 	
-	reList = ["https://ghproxy.net/https://raw.githubusercontent.com", "https://raw.kkgithub.com",
-			  "https://gcore.jsdelivr.net/gh", "https://mirror.ghproxy.com/https://raw.githubusercontent.com",
-			  "https://github.moeyy.xyz/https://raw.githubusercontent.com", "https://fastly.jsdelivr.net/gh"]
+	reList = ["https://ghproxy.net/https://raw.githubusercontent.com", 
+			  "https://raw.kkgithub.com",
+			  "https://gcore.jsdelivr.net/gh", 
+			  "https://mirror.ghproxy.com/https://raw.githubusercontent.com",
+			  "https://github.moeyy.xyz/https://raw.githubusercontent.com", 
+			  "https://fastly.jsdelivr.net/gh"
+			  ]
 	reRawList = [False, False,
 				 True, False,
 				 False, True]
