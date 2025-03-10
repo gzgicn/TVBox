@@ -3,6 +3,8 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
    "warningText": "资源来自网络，所有内容仅供学习使用",
    "sites": [
+
+   /*
      {"key": "csp_douban","name": "🌕┃豆瓣┃热播","type": 3,"api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
      {"key": "csp_KungFu404","name": "🔥┃设置Token","type": 3,"api": "csp_KungFu404","searchable": 0,"filterable": 0,"changeable": 0,"jar": "https://raw.liucn.cc/box/libs/jar/Token.jar","ext": "http://127.0.0.1:9978/file/tvfan/token.txt"},
     {"key": "APP商店","name": "🎰┃蜂蜜┃商店","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://raw.liucn.cc/box/libs/market.json","jar": "https://raw.liucn.cc/box/libs/jar/app.jar"},
@@ -19,8 +21,12 @@
     },
     {"key": "抠搜","name": "🍄┃抠抠┃搜搜","type": 3,"api": "csp_KkSs","searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {  "Cloud-drive": "tvfan/Cloud-drive.txt",  "from": "4k|auto"}
     },
+*/
+
     {"key": "Lib","name": "🌟┃Lib┃秒播","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": {  "Cloud-drive": "tvfan/Cloud-drive.txt",  "from": "4k|auto"}
-    },
+    }
+
+    /*
     {"key": "文采","name": "💮┃文采┃秒播","type": 3,"api": "csp_Jpys","playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1
     },
     {"key": "糯米","name": "🍓┃糯米┃秒播","type": 3,"api": "csp_Nmyswv","timeout": 15,"searchable": 1,"quickSearch": 1,"changeable": 1
@@ -328,6 +334,8 @@
 
 {"key": "短视频","name": "📱┃网红┃美女","type": 3,"api": "csp_XBPQ","searchable": 0,"quickSearch": 0,"filterable": 0,"jar": "https://raw.liucn.cc/box/libs/jar/HCCX.jar","ext": "https://raw.liucn.cc/box/libs/hccx/短视频聚合.json"
     }
+	
+*/
   ],
   "parses": [
     {"name": "Json聚合","type": 3,"url": "Demo" },
