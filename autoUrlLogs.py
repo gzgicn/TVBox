@@ -105,7 +105,7 @@ def main():
 			fp.write("# 提示\n\n")
 			fp.write("感谢各位大佬的无私奉献.\n\n")
 			fp.write(
-				"如果有收录您的配置，您也不希望被收录请[issues](https://github.com/hl128k/tvbox/issues)，必将第一时间移除\n\n")
+				"如果有收录您的配置，您也不希望被收录请[issues](https://github.com/gzgicn/tvbox/issues)，必将第一时间移除\n\n")
 			fp.write("# 免责声明\n\n")
 			fp.write("本项目（tvbox）的源代码是按“原样”提供，不带任何明示或暗示的保证。使用者有责任确保其使用符合当地法律法规。\n\n")
 			fp.write(
