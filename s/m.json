@@ -6,7 +6,7 @@
         {"key": "Lib","name": "🌟┃万达影视┃秒播","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": {  "Cloud-drive": "tvfan/Cloud-drive.txt",  "from": "4k|auto"}
     }  ],
   "lives": [
-    {"name": "SAO","type": 0,"url": "./lives/lives.txt","playerType": 1,"ua": "okhttp/3.15","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://live.fanmingming.cn/tv/{name}.png"
+    {"name": "SAO","type": 0,"url": "https://7fbd6b38.r7.cpolar.top/mirror/liucn/lives/lives.txt","playerType": 1,"ua": "okhttp/3.15","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://live.fanmingming.cn/tv/{name}.png"
     }
   ]
 }
